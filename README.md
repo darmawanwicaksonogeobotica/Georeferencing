@@ -25,17 +25,14 @@ To use the scripts, install the following Python libraries:
 
 
 ## Workflows
--Read the LAS File: Load the point cloud data from a .las file.
 
--Unit Conversion: Ensure consistent units for further processing.
--Clustering with DBSCAN: Identify clusters with specific intensity values.
+1. **Read the LAS File**: Load the point cloud data from a `.las` file.
+2. **Unit Conversion**: Ensure consistent units for further processing.
+3. **Clustering with DBSCAN**: Identify clusters with specific intensity values.
+4. **Centroid and Distance Calculation**: Calculate centroids and compare distances with actual prism data.
+5. **Multi-Stage Filtering**:
+   - **Distance-based Filtering**: Filter using different tolerances.
+   - **Angle-based Filtering**: Eliminate "fake" prisms by comparing angular deviations.
+6. **Rigid Transformation**: Perform georeferencing using transformation matrices.
+7. **Apply Transformation**: Transform the entire point cloud data using the derived transformation matrix.
 
--Centroid and Distance Calculation: Calculate centroids and compare distances with actual prism data.
-
--Multi-Stage Filtering:
-  -Distance-based filtering with different tolerances.
-  -Angle-based filtering to eliminate "fake" prisms.
-  
--Rigid Transformation: Perform georeferencing using transformation matrices.
-
--Apply Transformation: Transform the entire point cloud data using the derived transformation matrix.
