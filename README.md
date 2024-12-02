@@ -1,4 +1,4 @@
-# Georeferencing Script
+# Georeferencing Script (v1)
 
 This repository contains a script and methodology for performing automatic georeferencing of point cloud data using various filtering and transformation techniques.
 
