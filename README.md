@@ -1,9 +1,9 @@
 # Georeferencing Script (v1)
 
-This repository contains a script and methodology for performing automatic georeferencing of point cloud data using various filtering and transformation techniques.
+This repository contains a script and methodology for automatically georeferencing point cloud data using various filtering and transformation techniques. This script has been tested using the Daniel Decline Area dataset (30 km), and it works similarly to the manual process. The 30km was used in this testing because this data is the most consistent compared to the other dataset.
 
 ## Introduction
-The georeferencing process involves identifying and aligning point cloud data with a defined coordinate system. This project incorporates advanced clustering and transformation techniques, ensuring accurate georeferencing by utilizing centroid calculation, distance measurement, and angle verification for identifying prisms.
+Georeferencing involves identifying and aligning point cloud data with a defined coordinate system. This project incorporates advanced clustering and transformation techniques, ensuring accurate georeferencing by utilizing centroid calculation, distance measurement, and angle verification for identifying prisms.
 
 ## Features
 - Processing and filtering LAS files.
